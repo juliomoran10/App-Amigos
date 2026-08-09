@@ -1,0 +1,28 @@
+# Node
+node_modules/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Uploads (imágenes locales del backend)
+uploads/
+
+# Logs
+*.log
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.tsbuildinfo
+
+# Native (generados por prebuild)
+/android
+/ios
+
+# Sistema
+.DS_Store
+Thumbs.db
