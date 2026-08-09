@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "230574749079",
+    "project_id": "friendmatch-ca743",
+    "storage_bucket": "friendmatch-ca743.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230574749079:android:7972bd5e5f2ecf266a40d2",
+        "android_client_info": {
+          "package_name": "com.friendmatch.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxlUZRY_5USRh0r6FVjl_u0cptEZMLX8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

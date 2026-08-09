@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "package": "com.friendmatch.app"
+      "package": "com.friendmatch.app",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -27,7 +28,18 @@
       "expo-font",
       "@react-native-community/datetimepicker",
       "expo-image",
-      ["expo-notifications", { "color": "#FF2A6D" }]
-    ]
+      [
+        "expo-notifications",
+        {
+          "color": "#FF2A6D"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a059e5de-519d-48ed-a4d8-4a946a59cea4"
+      }
+    },
+    "owner": "juliom2801"
   }
 }
